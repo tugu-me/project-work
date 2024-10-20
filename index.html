@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contet="width=device-width, initial-scale=1.0">
+    <title>My Movie Ranking Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./mac.css">
+    <style>
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+<body class="font-roboto bg-gray-100">
+    <!-- Navbar -->
+    <header class="fixed top-0 w-full bg-green-600 text-white shadow-lg z-50">
+        <nav class="container mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Movie Ranking</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+                <li><a href="#genres" class="hover:text-gray-200">Genres</a></li>
+                <li><a href="#favourites" class="hover:text-gray-200">Favouirrtes</a></li>
+                <li><a href="#top-movies" class="hover:text-gray-200">Top Movies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-16">
+        <!-- Home Section -->
+        <section id="home" class="text-center py-16 bg-white">
+            <h2 class="text-4xl font-bold">My Movie Ranking Site</h2>
+            <p class="mt-4 text-lg"><b><i>An awesome platform for sharing my taste in favorite Movies or Music.<br>We are number one movie and music center allover Uganda.<br>We deal in all types of movies and music
+                 both translated and non translated<br></br></i></b></p>
+            <img src="images_003.jpg" alt="Movie Scene" class="mt-8 w-full h-auto">
+        </section>
+
+        <!-- Genres Section -->
+        <section id="genres" class="py-16 bg-blue-100">
+            <h3 class="text-3xl font-bold text-center">Movie Genres</h3>
+            <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mt-8">
+            <div>
+                <div class="p-4-auto bg-white shadow-sm text-center" ><img src="images_012.jpg" alt="Movie Scene" class="mt-auto w-full h-auto">Action</div>
+            </div>
+            <div>
+                <div class="p-4 bg-white shadow-md text-center"><img src="images.jpg" alt="Movie Scene" class="mt-auto">Thrillers</div>
+            </div>
+            <div>
+                <div class="p-4 bg-white shadow-md text-center"><img src="images_024.jpg" alt="Movie Scene" class="mt-auto">Adventure</div>
+            </div>
+            <div>
+                <div class="p-4 bg-white shadow-md text-center"><img src="images_007.jpg" alt="Movie Scene" class="mt-auto">Drama</div>
+            </div>
+            <div>
+                <div class="p-4-auto bg-white shadow-md text-center"><img src="images_004.jpg" alt="Movie Scene" class="mt-auto">Comedy</div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Top Movies Section -->
+        <section id="top-movies" class="py-16 bg-white">
+            <h3 class="text-3xl font-bold text-center">Top 5 Movies</h3>
+            <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mt-8">
+                <div class="bg-gray-500 p-4 rounded-lg shadow-lg">
+                    <img src="images_028.jpg" alt="Movie 1" class="w-full h-auto 50%-lg">
+                    <h4 class="mt-4 text-xl font-bold">MACHETE KILLS</h4>
+                    <a href="https://youtube.com/Action" class="text-blue-500 bg-white hover:underline"><br>Watch now</a>
+                </div>
+              <div class="bg-gray-500 p-4 rounded-lg shadow-lg">
+                    <img src="images_032.jpg" class="w-full h-auto rounded-lg">
+                    <h5 class="mt-4 text-xl font-bold">Creation of the Earth</h5>
+                    <a href="https://youtube.com/trailer1" class="text-blue-500 bg-white hover:underline"><br>Watch now</a>
+                </div>
+              <div class="bg-gray-500 p-4 rounded-lg shadow-lg">
+                    <img src="images_006.jpg" alt="Movie 3" class="w-full h-auto rounded-lg">
+                    <h6 class="mt-4 text-xl font-bold">Litle brother</h6>
+                    <a href="https://youtube.com/Adventure" class="text-blue-500 bg-white hover:underline"><br>Watch now</a>
+                </div>
+              <div class="bg-gray-500 p-4 rounded-lg shadow-lg">
+                    <img src="images_009.jpg" alt="Movie 6" class="w-full h-auto rounded-lg">
+                    <h7 class="mt-4 text-xl font-bold">Fast and Ferious</h7>
+                    <a href="https://youtube.com/drama" class="text-blue-500 bg-white hover:underline"><br>Watch now</a>
+                </div>
+                <div class="bg-gray-500 p-4 rounded-lg shadow-lg">
+                    <img src="images_014.jpg" alt="Movie 6" class="w-full h-auto rounded-lg">
+                    <h7 class="mt-4 text-xl font-bold">Romance</h7>
+                    <a href="https://youtube.com/comedy" class="text-blue-500 bg-white hover:underline"><br>Watch now</a>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+    <div class="solid">
+        <div class="work">
+            <h7>Movie links</h7>
+            <u1>
+                <li><a href="fa fa-Home page">home page</a></li>
+                <li><a href="fa fa-lastest version">last reviews</a></li>
+                <li><a href="fa fa-browser movies">browser movies</a></li>
+                <li><a href="fa fa-find new channels">find new channels</a></li>
+            </u1>
+        </div>
+        <div class="work">
+            <h9>Terms</h9>
+            <ul>
+                <li><a href="fa fa-Policy">Policy</a></li>
+                <li><a href="fa fa-Conditions">Conditions</a></li>
+            </ul>
+        </div>
+            <div class="work">
+            <h8>Contact us</h8> 
+           <ul>
+          <li><a href="#facebook" class="hover:text-gray-200">facebook</a></li>
+          <li><a href="#twiter " class="hover:text-gray-200">twiter</a></li>
+          <li><a href="#Whatsapp" class="hover:text-gray-200">Whatsapp</a></li>
+        </ul>
+        </div>
+        
+    </div>
+    <div class="news">
+        <center><form><label>Subscribe to our Newsletter <input type="email" placeholder="Email" required> <input type="submit" value="submit" class="submit mx-auto text-white"></label></form> </center>
+        </div>
+        <p>&copy; 2024 Movie Ranking. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/daisyui"></script>
+</body>
+</html>
+
